@@ -1,0 +1,366 @@
+/* --Google Fonts-- */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Secular+One&display=swap');
+
+/* -----------Basic CSS----------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container::before,.container::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 50px;
+}
+p{
+    font-size: 26px;
+}
+.col-20{
+    width: 20%;
+    padding: 0 50px;
+    float: left;
+}
+.col-33{
+    width: 33%;
+    padding: 0 50px;
+    float: left;
+}
+.col-40{
+    width: 40%;
+    padding: 0 50px;
+    float: left;
+}
+.col-50{
+    width: 50%;
+    padding: 0 50px;
+    float: left;
+}
+.col-60{
+    width: 60%;
+    padding: 0 50px;
+    float: left;
+}
+.col-100{
+    width: 100%;
+    padding: 0 50px;
+    float: left;
+}
+.sec-pad-top{
+    padding-top: 140px;
+}
+.sec-pad-bottom{
+    padding-bottom: 110px;
+}
+.button{
+    display: inline-block;
+    border:2px solid #ffff;
+     border-radius: 5px;
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #ffff;
+    transition: 0.5s;
+    font-family:'Bangers', cursive;
+}
+/* ----------------Custom CSS------------------ */
+header{
+    background: #1d1d23;
+    height: 90px;
+    position: sticky;
+    top: 0;
+    filter: drop-shadow(0px 1px 0px #db8a07 );
+}
+header ul li {
+    list-style-type: none;
+    float: left;
+    line-height: 80px;
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 45px;
+}
+header ul li:last-child{
+    margin-right: 0;
+}
+header ul li:hover,header ul li:hover:focus{
+    color: #e58f00;
+}
+
+header img {
+    max-width: 40%;
+    padding-top: 15px;
+    margin: 0px auto;
+    display: block;
+}
+header p {
+    font-size: 13px;
+    text-align: center;
+    color: #ff9d00;
+    margin-left: 4px;
+}
+header p:hover, header p:focus{
+    text-decoration: underline;
+}
+section{
+    background-image: url(../assets/bg-2.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height:710px;
+    width: 100%;
+    text-align: center;
+}
+.hero h1{
+    margin-top: 50px;
+    font-size: 74px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 4px;
+    text-align: center;
+    color:#ff9d00;
+    -webkit-text-stroke: 1px rgba(255, 255, 255,0.8);
+    
+}
+.hero .btn{
+    margin-top: 70px;
+    letter-spacing: 1px;
+}
+.hero a:hover, .hero a:focus{
+    color: #333;
+    background-color:#db8a07;
+}
+.about{
+    background:#28282d;
+    color: #ffffff;
+}
+.about img{
+    max-width: 100%;
+}
+.about h2{
+    margin-top: 58px;
+}
+.about p{
+    margin-top: 20px;
+}
+.quality{
+    background:#1d1d23;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+}
+
+.quality-text{
+    margin: 0 auto;
+    padding: 70px;
+    border: 4px solid #e58f00;
+    text-align: center;
+    color:#ffffff;
+}
+.quality-text h2{
+    margin-bottom: 25px;
+    font-size: 55px;
+}
+.quality-text p {
+    font-size: 28px;
+}
+
+
+.gallery{
+    text-align: center;
+    background: #28282d ;
+    color: #ffffff;
+    padding-top:100px ;
+}
+.gallery h2{
+    margin-bottom:40px ;
+}
+.gallery img{
+    max-width: 314px;
+    max-height:350px;
+    padding: 0 15px 15px;
+}
+.photo-gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center ;
+    justify-content: center;
+}
+.service{
+    background: #1d1d23;
+}
+.service h2{
+    margin-bottom: 50px;
+}
+.single-service-cards{
+    margin-bottom: 30px;
+}
+.single-service-cards h2,.single-service-cards h3,.single-service-cards p{
+    margin-bottom: 5px;
+}
+.single-service-cards h2{
+    font-size: 28px;
+    margin-bottom: 0px;
+    color:#e58f00;
+}
+.single-service-cards h3{
+    font-size: 24px;
+    color:#e58f00;
+    font-style: italic;
+}
+.single-service-cards span{
+    font-size: 18px;
+    font-style: italic;
+}
+.single-service-cards p{
+    font-size: 15px;
+}
+.single-service-cards img{
+    padding: 0 15px 5px;
+    max-height: 300px;
+}
+
+.single-service-cards .btn{
+border: 2px solid #ffffff;
+border-radius: 3px;
+padding: 6px 30px;
+font-size: 16px;
+color: #e58f00;
+margin-bottom: 10px;
+}
+.single-service-cards .btn:hover,.single-service-cards .btn:focus{
+    color:#333;
+    background: #e58f00;
+}
+
+.suggest{
+    height:290px;
+    background:#e58f00;
+}
+
+.suggest img{
+    max-width: 470px;
+    margin-top:-40px;
+}
+.suggest-text{
+    margin-top: 35px;
+    padding-left: 70px;
+}
+.suggest h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+.suggest p{
+    font-size: 30px;
+    color: #ffffff;
+}
+.qutoes{
+    background: #28282d;
+    color: #ffffff;
+}
+.qutoes h2{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.qutoes img{
+    max-width: 465px;
+}
+.qutoes p{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    line-height: 47px;
+}
+.qutoes i{
+    display: inline;
+    color:#e58f00;
+    font-size: 45px;
+    margin-right:10px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.qutoes i:first-child{
+    margin-left: 0px;
+    padding-top: 0px;
+}
+.qutoes span{
+    color:rgba(254, 254, 255, 0.575);
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 240px;
+}
+
+
+.footer{
+    background:#1d1d23;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.footer i{
+    font-size: 40px;
+    color:#e58f00;
+    margin-right: 20px;
+}
+.footer h2{
+    display: inline;
+    color: #ffffff;
+    font-size: 30px;
+}
+.bottom-menu ul {
+    display: table;
+    margin: 0 auto;
+    padding-left: 65px;
+  }
+.bottom-menu ul li {
+    list-style-type: none;
+    float: left;
+    line-height: 90px;
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 30px;
+}
+.bottom-menu ul li:last-child{
+    margin-right: 0px;
+}
+.bottom-menu ul li:hover,.bottom-menu ul li:focus{
+    color: #e58f00;
+}
+
+.social {
+
+    padding-left: 60px;
+    padding-top: 10px;
+
+}
+.social i {
+    font-size: 18px;
+    color: #1d1d23;
+    background: #ffffff;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.social i:hover, .social i:focus{
+    color: #e58f00;
+    background: #28282d;
+    box-shadow: 0 0 15px #e58f00;
+    transform: translateY(-5px);
+}
+/* --------------------------------Custom CSS End-------------------------------- */

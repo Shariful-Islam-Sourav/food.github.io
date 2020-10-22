@@ -1,0 +1,373 @@
+@media (min-width:991.5px) and (max-width:1199.5px){
+    sec-pad-bottom {
+        padding-bottom: 70px;
+    }
+    .sec-pad-top {
+        padding-top: 110px;
+    }
+    section {
+        height: 615px;
+    }
+    .hero h1 {
+        margin-top: 80px;
+    }
+    .about h2 {
+        margin-top: 28px;
+    }
+    
+    .quality-text {
+        width: 660px;
+        padding: 70px;
+    }
+    .quality-text br{
+        display: none;
+    }
+    .qutoes span {
+        font-size: 12px;
+        margin-left: 235px;
+    }
+    .qutoes p {
+        margin-bottom: 10px;
+        line-height: 43px;
+    }
+    .footer {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+}
+@media (min-width:767.5px) and (max-width:991.5px){
+.sec-pad-bottom {
+        padding-bottom: 90px;
+}
+ .sec-pad-top {
+        padding-top: 110px;
+}
+header ul li {
+    margin-right: 27px;
+    font-size: 15px;
+}
+header p {
+    font-size: 9px;
+    margin-left: 2px;
+}
+header img{
+    max-width: 100%;
+}
+.hero h1 {
+    font-size: 64px;
+}
+section{
+    height: 560px;
+}
+.button {
+    padding: 9px 25px;
+    font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 40px;
+}
+p {
+    font-size: 20px;
+}
+.about br{
+    display: none;
+}
+.about p {
+    margin-top: 5px;
+}
+.about h2 {
+    margin-top: 5px;
+}
+.quality-text br{
+    display: none;
+}
+quality-text h2 {
+    margin-bottom: 15px;
+    font-size: 48px;
+}
+.quality-text p {
+    font-size: 25px;
+}
+.quality-text {
+    padding: 50px;
+}
+.suggest h2 {
+    font-size: 30px;
+    margin-bottom:0;
+}
+.suggest p {
+    font-size: 23px;
+}
+.suggest {
+    height: 215px;
+}
+.suggest img {
+    max-width: 350px;
+}
+.suggest-text {
+    margin-top: 15px;
+}
+.qutoes img {
+    max-width: 390px;
+}
+.qutoes p {
+    margin-left: 30px;
+    margin-bottom: 24px;
+    line-height: 30px;
+    font-size: 24px;
+}
+.qutoes i{
+        font-size: 26px;
+}
+.qutoes span {
+    font-size: 11px;
+    margin-left: 137px;
+}
+.footer {
+    padding-top: 65px;
+    padding-bottom: 60px;
+}
+}
+@media (max-width:767.5px){
+    .col-20,
+    .col-33,
+    .col-40,
+    .col-50,
+    .col-60,
+    .col-100{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .sec-pad-bottom {
+        padding-bottom: 60px;
+    }
+    .sec-pad-top {
+        padding-top: 60px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+        font-size: 35px;
+    }
+    p{
+        text-align: center;
+        font-size: 20px;
+    }
+    header .second-menu{
+        display: none;
+    }
+    header img {
+        width: 60px;
+        padding-top: 15px;
+        top: 0;
+        position: absolute;
+        right: 0;
+    }
+    header ul li {
+        margin-right: 27px;
+        line-height: 75px;
+    }
+    header {
+        height: 75px;
+    }
+    header img {
+        max-width: 19%;
+        padding-top: 13px;
+        top: 0px;
+        position: absolute;
+        right: 6px;
+    }
+    header p{
+        font-size: 10px;
+        top: 46px;
+        right: 8px;
+        position: absolute;
+    }
+    section {
+        height: 405px;
+    }
+    .hero h1 {
+        margin-top: 55px;
+        font-size: 45px;
+        letter-spacing: 1px;
+        -webkit-text-stroke: 1px rgba(255, 255, 255,0.7);
+    }
+    .hero .btn {
+        margin-top: 40px;
+    }
+    .button {
+        border-radius: 4px;
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+    .about br{
+        display: none;
+    }
+    .quality-text br{
+        display: none;
+    }
+    .quality-text h2 {
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+    .quality-text p {
+        font-size: 18px;
+    }
+    .quality-text{
+        padding: 30px;
+    }
+    .single-service-cards h2 {
+        font-size: 24px;
+    }
+    .single-service-cards p {
+        font-size: 13px;
+    }
+    .single-service-cards h3 {
+        font-size: 20px;
+    }
+    .single-service-cards .btn {
+        padding: 6px 22px;
+        font-size: 15px;
+    }
+    .suggest img {
+        max-width: 270px;
+    }
+    .suggest{
+        height: 155px;
+    }
+    .suggest-text{
+        width: 100%;
+        padding-left: 0;
+        margin-top: 6px;
+        margin-bottom: 60px;
+    }
+    .suggest h2 {
+        font-size: 32px;
+        margin-bottom: 5px;
+    }
+    .suggest p {
+        font-size: 19px;
+        line-height: 34px;
+    }
+    .qutoes h2 {
+        margin-bottom: 30px;
+    }
+    .qutoes img {
+        max-width: 285px;
+        margin-bottom: 15px;
+    }
+    .qutoes p {
+        margin-left: 0;
+        line-height: 35px;
+        font-size: 19px;
+        margin-bottom: 35px;
+    }
+    .qutoes i{
+        font-size: 30px;
+    }
+.qutoes span {
+    font-size: 11px;
+    margin-left: 167px;
+}
+.footer {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.bottom-menu ul li {
+    line-height: 29px;
+    font-size: 13px;
+    margin-right: 17px;
+}
+.bottom-menu ul{
+    padding-left: 45px;
+}
+.footer i {
+    font-size: 32px;
+    margin-right: 15px;
+}
+.footer h2 {
+    display: inline;
+    color: #ffffff;
+    font-size: 25px;
+}
+.social {
+    padding-left: 25px;
+    padding-top: 11px;
+}
+.social i {
+    font-size: 13px;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    margin-right: 10px;
+}
+}
+@media (min-width:575.5px) and (max-width:767.5px){
+    header .second-menu{
+        display:inline-block;
+    }
+    .col-20{
+        width: 20%;
+    }
+    .col-40{
+        width: 40%;
+    }
+    .col-60{
+        width: 60%;
+    }
+    header img {
+        max-width: 40%;
+        padding-top: 15px;
+        position:static;
+    }
+    header p{
+        font-size: 13px;
+        position: static;
+    }
+    header ul li {
+        font-size: 14px;
+    }
+    p {
+        font-size: 24px;
+    }
+    .quality-text {
+        padding: 40px;
+    }
+    .quality-text p {
+        font-size: 24px;
+    }
+    .quality-text h2 {
+        font-size: 35px;
+    }
+    .gallery img {
+        max-width: 282px;
+    }
+    .suggest h2 {
+        font-size: 25px;
+        margin-bottom: 6px;
+    }
+    .suggest p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .suggest-text {
+        padding-left: 19px;
+        margin-top: 16px;
+    }
+    .qutoes img {
+        max-width: 548px;
+        margin-bottom: 35px;
+    }
+    .qutoes p {
+        line-height: 42px;
+        font-size: 26px;
+        margin-bottom: 42px;
+    }
+    .qutoes span {
+        font-size: 13px;
+        margin-left: 400px;
+    }
+    .logo-name{
+        margin-bottom: 6px;
+    }
+}
+/* ----------------------------------Responsive End--------------------------------- */
